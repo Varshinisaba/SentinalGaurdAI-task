@@ -1,0 +1,26 @@
+/* src/styles/global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* src/styles/global.css */
+.background-gradient {
+    background: linear-gradient(
+      135deg,
+      #ff4a5b, /* Pinkish red */
+      #ff8e00, /* Orange */
+      #ffd500, /* Yellow */
+      #0094ff, /* Light blue */
+      #8357ff  /* Purple */
+    );
+    background-size: 200% 200%;
+    animation: gradient-animation 15s ease infinite;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  @keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  

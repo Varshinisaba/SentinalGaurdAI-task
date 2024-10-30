@@ -1,0 +1,57 @@
+<!-- components/Navbar.astro -->
+<nav class="relative p-6 flex justify-between items-center">
+    <h1 class="text-3xl text-white font-bold">Your Logo</h1>
+    <ul class="flex space-x-6 text-white">
+      <!-- Products Dropdown -->
+      <li class="relative group">
+        <a href="#" class="hover:text-gray-300 transform hover:-translate-x-1 transition-all">Products</a>
+        <div class="absolute left-0 hidden group-hover:block bg-white text-black rounded shadow-lg p-4 mt-2 w-48">
+          <a href="#" class="block px-4 py-2 hover:bg-gray-100">Payments</a>
+          <a href="#" class="block px-4 py-2 hover:bg-gray-100">Billing</a>
+          <a href="#" class="block px-4 py-2 hover:bg-gray-100">Terminal</a>
+          <a href="#" class="block px-4 py-2 hover:bg-gray-100">Connect</a>
+        </div>
+      </li>
+  
+      <!-- Solutions Dropdown -->
+      <li class="relative group">
+        <a href="#" class="hover:text-gray-300 transform hover:-translate-x-1 transition-all">Solutions</a>
+        <div class="absolute left-0 hidden group-hover:block bg-white text-black rounded shadow-lg p-4 mt-2 w-48">
+          <a href="#" class="block px-4 py-2 hover:bg-gray-100">E-commerce</a>
+          <a href="#" class="block px-4 py-2 hover:bg-gray-100">SaaS</a>
+          <a href="#" class="block px-4 py-2 hover:bg-gray-100">Marketplace</a>
+        </div>
+      </li>
+  
+      <!-- Developers Dropdown -->
+      <li class="relative group">
+        <a href="#" class="hover:text-gray-300 transform hover:-translate-x-1 transition-all">Developers</a>
+        <div class="absolute left-0 hidden group-hover:block bg-white text-black rounded shadow-lg p-4 mt-2 w-48">
+          <a href="#" class="block px-4 py-2 hover:bg-gray-100">API Documentation</a>
+          <a href="#" class="block px-4 py-2 hover:bg-gray-100">Integration Guides</a>
+          <a href="#" class="block px-4 py-2 hover:bg-gray-100">Developer Tools</a>
+        </div>
+      </li>
+  
+      <!-- Resources Dropdown -->
+      <li class="relative group">
+        <a href="#" class="hover:text-gray-300 transform hover:-translate-x-1 transition-all">Resources</a>
+        <div class="absolute left-0 hidden group-hover:block bg-white text-black rounded shadow-lg p-4 mt-2 w-48">
+          <a href="#" class="block px-4 py-2 hover:bg-gray-100">Case Studies</a>
+          <a href="#" class="block px-4 py-2 hover:bg-gray-100">Customer Stories</a>
+          <a href="#" class="block px-4 py-2 hover:bg-gray-100">Blog</a>
+        </div>
+      </li>
+  
+      <!-- Pricing Link (No Dropdown) -->
+      <li class="relative group">
+        <a href="#" class="hover:text-gray-300 transform hover:-translate-x-1 transition-all">Pricing</a>
+      </li>
+    </ul>
+  
+    <div class="space-x-4">
+      <a href="#" class="text-white hover:text-gray-300">Sign in</a>
+      <button class="bg-white text-black rounded-full py-2 px-4">Contact sales</button>
+    </div>
+  </nav>
+  
