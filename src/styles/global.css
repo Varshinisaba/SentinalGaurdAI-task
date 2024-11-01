@@ -1,8 +1,4 @@
-/* src/styles/global.css */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-/* src/styles/global.css */
+
 .background-gradient {
     background: linear-gradient(
       135deg,
