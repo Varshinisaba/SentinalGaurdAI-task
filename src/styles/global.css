@@ -1,12 +1,11 @@
-
-.background-gradient {
+/* .background-gradient {
     background: linear-gradient(
       135deg,
-      #ff4a5b, /* Pinkish red */
-      #ff8e00, /* Orange */
-      #ffd500, /* Yellow */
-      #0094ff, /* Light blue */
-      #8357ff  /* Purple */
+      #ff4a5b, 
+      #ff8e00, 
+      #ffd500, 
+      #0094ff, 
+      #8357ff  
     );
     background-size: 200% 200%;
     animation: gradient-animation 15s ease infinite;
@@ -18,5 +17,4 @@
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
-  }
-  
+  } */
